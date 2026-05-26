@@ -46,6 +46,7 @@ game_rulesets = ["py.typed"]
 
 [tool.setuptools_scm]
 fallback_version = "0.1.0"
+local_scheme = "no-local-version"
 
 [tool.pytest.ini_options]
 pythonpath = ["src"]
